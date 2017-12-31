@@ -1,0 +1,19 @@
+current directory: /Users/shidamasataka/rails_tutorial/environment/sample_app/vender/bundle/gems/byebug-9.1.0/ext/byebug
+/Users/shidamasataka/.anyenv/envs/rbenv/versions/2.4.0/bin/ruby -r ./siteconf20171231-92222-9p5gcn.rb extconf.rb
+creating Makefile
+
+current directory: /Users/shidamasataka/rails_tutorial/environment/sample_app/vender/bundle/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/shidamasataka/rails_tutorial/environment/sample_app/vender/bundle/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/shidamasataka/rails_tutorial/environment/sample_app/vender/bundle/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20171231-92222-1mpxv6a/byebug
