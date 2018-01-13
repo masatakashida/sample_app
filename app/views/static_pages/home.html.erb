@@ -1,7 +1,10 @@
+<!-- メソッドの引数では、"Home"という文字列と:titleというラベルを関連付けています。 -->
+<% provide(:title, "Home") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home | Ruby on Rails Tutorial Sample App</title>
+    <!-- テンプレートのその部分に実際のタイトルが挿入されます。 -->
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
   </head>
   <body>
     <h1>Sample App</h1>
