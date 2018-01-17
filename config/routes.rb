@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   # rootルーティングを追加したことで、root_urlというRailsヘルパー
   root 'static_pages#home'
   get '/help', to: 'static_pages#help'
