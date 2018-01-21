@@ -51,6 +51,8 @@ class UserTest < ActiveSupport::TestCase
   test "email addresses should be unique" do
     # cloneメソッドとdupメソッドは、レシーバのオブジェクトのコピーを作成して返します。オブジェクトのコピーとは、同じ内容を持つ別のオブジェクトです。
     duplicate_user = @user.dup
+    # 大文字小文字の区別をつけない。
+    duplicate_user.email = @user.email.upcase
     @user.save
     assert_not duplicate_user.valid?
   end
